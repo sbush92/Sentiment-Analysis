@@ -1,0 +1,4 @@
+﻿  Single Thread Project.cpp
+C:\Users\Sam\Desktop\GraduateProject\GraduateProject\Single Thread Project\Single Thread Project\Single Thread Project.cpp(122,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sam\Desktop\GraduateProject\GraduateProject\Single Thread Project\Single Thread Project\Single Thread Project.cpp(217,23): warning C4018: '<': signed/unsigned mismatch
+  Single Thread Project.vcxproj -> C:\Users\Sam\Desktop\GraduateProject\GraduateProject\Single Thread Project\Debug\Single Thread Project.exe

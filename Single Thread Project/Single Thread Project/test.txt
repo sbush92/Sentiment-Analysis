@@ -1,0 +1,10 @@
+not quite ready just yet, but starting migrations in January. 
+Right now just trying to keep old SCCM alive for those who currently use it.
+What we can do is something interesting. Not using uvuid for accounts, using SA accounts created for themselves. Nate Wetton is the
+person you would want to talk to with that. Also will need an AD group created with all of our SA accounts created in it.
+Once Nate has done that let him know the name of the group that he's made for us. then he'll start getting us rights. Then start
+modifying smart deploy image to deploy devices into MECM simple as a script that I would put in as an application. Then anytime we 
+image with smart deploy it will put the MECM client on there. Any existing devices we'd have to make sure that they're not pointing 
+towards WSUS server anymore because we dont want it to fight with MECM. If any have old SCCM client on it we will need a script to switch
+it over to the new one. Any of the devices we enroll can set up a policy that would do that, once we have the actual rights to do stuff
+we can look into doing that. Can do some testing throughout december, but wont be ready until bulk. 
